@@ -1,8 +1,8 @@
 applications:
-- name: tracker-allocations
+- name: tracker-allocations2
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   routes:
-  - route: allocations-pal-pnagaram.apps.dev.pcf-aws.com
+  - route: allocations-pal-pnagaram2.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:

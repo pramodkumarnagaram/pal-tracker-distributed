@@ -1,8 +1,8 @@
 applications:
-- name: tracker-registration
+- name: tracker-registration2
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-pnagaram.apps.dev.pcf-aws.com
+  - route: registration-pal-pnagaram2.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:

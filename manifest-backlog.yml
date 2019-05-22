@@ -1,8 +1,8 @@
 applications:
-- name: tracker-backlog
+- name: tracker-backlog2
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-pnagaram.apps.dev.pcf-aws.com
+  - route: backlog-pal-pnagaram2.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:

@@ -1,8 +1,8 @@
 applications:
-- name: tracker-timesheets
+- name: tracker-timesheets2
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   routes:
-  - route: timesheets-pal-pnagaram.apps.dev.pcf-aws.com
+  - route: timesheets-pal-pnagaram2.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:
