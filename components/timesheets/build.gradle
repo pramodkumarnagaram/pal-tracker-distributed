@@ -1,6 +1,8 @@
 dependencies {
     compile project(":components:rest-support")
     compile "org.springframework:spring-jdbc:$springVersion"
+    compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
 
     testCompile project(":components:test-support")
 }
