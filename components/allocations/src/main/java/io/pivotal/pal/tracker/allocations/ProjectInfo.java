@@ -1,6 +1,6 @@
 package io.pivotal.pal.tracker.allocations;
 
-public class ProjectInfo {
+public class  ProjectInfo {
 
     public final boolean active;
 
